@@ -208,7 +208,8 @@ body{
 	}
 	.btn1{
 		background-color: #01869F;
-		color: white
+		color: white;
+		margin: 5px;
 	}
 	.btn1:hover{
 		background-color: #02798F;

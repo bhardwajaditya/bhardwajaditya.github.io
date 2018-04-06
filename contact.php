@@ -12,7 +12,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
   <script>
     $(document).ready(function(){
       $(window).scroll(function(){
@@ -119,7 +119,7 @@
                           <hr>
                           
                           <p class="fd1">Head Office:- 264/5, Durgapuri Extn., Delhi - 110093, India</p>
-                          <p class="fd1">Branch Office :- Shop No. 34, Super Market, "A"Block, Ramprastha, Ghaziabad, U.P. 201011</p>
+                          <p class="fd1">Branch Office :- Shop No. 34, Super Market, "A" Block, Ramprastha, Ghaziabad, U.P. 201011</p>
                           
                           <p class="fd1"> TIN Number</p>
                           <p class="fd1">DELHI TIN NO. - 07830164382</p>
@@ -135,5 +135,6 @@
                         </div></div>
                         
                       </div>
+</body>
 </body>
 </html>
