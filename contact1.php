@@ -79,7 +79,7 @@
   </div>
    <div class="form-group">
     <label for="exampleFormControlInput4">Product Name</label>
-    <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Enter Product Name">
+    <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Enter Product Name" value="<?php echo $_GET['pname'] ?>">
   </div>
   <p align="center"><button type="submit" class="btn btn1">Submit</button></p>
     </form>
