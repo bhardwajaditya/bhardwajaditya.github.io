@@ -50,7 +50,7 @@
         </li>
         
         <li class="nav-item ">
-          <a class="nav-link head1" href="#" style="color: white">Trade Enquiry</a>
+          <a class="nav-link head1" href="trade.html" style="color: white">Trade Enquiry</a>
         </li>
         
         <li class="nav-item ">
@@ -109,12 +109,13 @@
                           <p align="left" class="fd1 "><a href="index.html" class="f1">HOME</a></p>
                           <p align="left" class="fd1"><a href="products_domestic.html" class="f1">DOMESTIC PRODUCTS</a></p>
                           <p align="left" class="fd1"><a href="products.html" class="f1">INDUSTRIAL PRODUCTS</a></p>
+                          <p align="left" class="fd1"><a href="trade.html" class="f1">TRADE ENQUIRY</a></p>
                           <p align="left" class="fd1"><a href="about.html" class="f1">ABOUT US</a></p>
                           <p align="left" class="fd1"><a href="contact.php" class="f1">CONTACT US</a></p>
                         </div>
                         <div class="col-lg-6 container r1">
                           
-                          <p align="center" class="fh1"><b>SINDHURIA ELECTRICAL INDUSTRIES</b></p>
+                          <p align="left" class="fh1"><b>SINDHURIA ELECTRICAL INDUSTRIES</b></p>
                           <hr>
                           
                           <p class="fd1">Head Office:- 264/5, Durgapuri Extn., Delhi - 110093, India</p>
@@ -134,7 +135,5 @@
                         </div></div>
                         
                       </div>
-
-                    </div>
 </body>
 </html>
