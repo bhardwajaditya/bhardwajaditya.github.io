@@ -1,3 +1,4 @@
+
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,6 +29,7 @@
   </script>
 </head>
 <body>
+  
 
   <div class="pos-f-t fixed-top">
 
@@ -52,24 +54,29 @@
         </li>
         
         <li class="nav-item ">
-          <a class="nav-link head1" href="#" style="color: white">Contact Us</a>
+          <a class="nav-link head1" href="contact.html" style="color: white">Contact Us</a>
         </li>
       </ul>
     </nav>
     
   </div>
-  <div class="d3">
-    <p class="tagline" align="center">ABOUT US</p>
+  <div class="d4">
+    <p class="tagline" align="center">CONTACT US</p>
   </div>
-  
-    <p align="center"><h1 class="c1">SINDHURIA ELECTRICAL INDUSTRIES</h1></p>
-    <div class="hr-blue"></div>
-    <div class="container">
+  <div class="container">
+    <form action="" method="get">
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" name="fname" placeholder="Enter Your Name"></td>
+      </table>
+    </form>
 
-      <p style=" margin: auto;text-align: left;" class="p1"> We are engaged in manufacturing and exporting highly reliable full tank alarm Automatic water level controller, dual tank water level controller, cable loat Switches, water level indicator and water level tank alarm. Our product range includes Water Automation System and Controller System.<br><br>Our company is supported and guided by our insight and able mentor Mr. Navneet Bhardwaj, on the track of success in the industry. He is one who is accountable for the progress of our company. Owing an experience of 17 years, we have been able to craft a niche for ourselves and design norms of operating and meeting demands of our clients.<br><br>With an annual sales turnover of Rs. 1 crore (10 million INR) and continuous effort of our organization to manufacture top quality level control system has changed us into a recognized exporter. Apart from this, our sound infrastructure with latest and innovative technologies is the factor responsible for consistent quality and services.<br><br>In order to maintain flawless production, we are backed by sound infrastructure, which is spread over a huge area. Our manufacturing facilities help us to manufacture latest and innovative machines and also customize our products. This helps us in meeting market needs proficiently with proper quality and quantity.<br><br> Our belief is to give utmost satisfaction to our clients. For that purpose, we offer high quality range of products which meets international standards. We efficiently use our manufacturing facilities and various other resources to develop our range. </p><br>
-    
   </div>
-  <div class="container-fluid footer">
+  <?php
+    echo $_GET['pname'];
+  ?>
+ <div class="container-fluid footer">
                       <div class="container">
                       <div class="row ">
                         <div class="col-lg-3 container r1">
