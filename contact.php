@@ -64,22 +64,32 @@
   <div class="container">
     <p><h1 class="c1">GIVE YOUR CONTACT DETAILS</h1></p>
     <div class="hr-blue"></div>
-    <form action="" method="get">
+    <form action="action.php" method="get">
       <div class="form-group">
     <label for="exampleFormControlInput1">Name</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name" required>
+    <input type="text" class="form-control" id="exampleFormControlInput1" name="fname" placeholder="Enter Your Name" required>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput2">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" required>
+    <input type="email" class="form-control" id="exampleFormControlInput2" name="email" placeholder="name@example.com" required>
   </div>
    <div class="form-group">
     <label for="exampleFormControlInput3">Phone Number</label>
-    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Enter Your Phone Number" required>
+    <input type="text" class="form-control" id="exampleFormControlInput3" name="pno" placeholder="Enter Your Phone Number" required>
   </div>
    <div class="form-group">
-    <label for="exampleFormControlInput4">Product Name</label>
-    <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Enter Product Name">
+    <label for="exampleFormControlInput4">Choose From following Products</label>
+    <select class="form-control" id="exampleFormControlinput4" name="pname">
+      <option>Water Level Controller</option>
+      <option>Dual Tank Water Level Controller</option>
+      <option>Water Level Alarm</option>
+      <option>Water Level Indicator</option>
+      <option>Semi-Automatic Water Level Indicator</option>
+      <option>VFD Panel</option>
+      <option>Inline Pumps</option>
+      <option>PLC Control Panel</option>
+      <option>Pressure Pumps</option>
+    </select>
   </div>
   <p align="center"><button type="submit" class="btn btn1">Submit</button></p>
     </form>
