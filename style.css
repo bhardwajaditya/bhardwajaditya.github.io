@@ -243,6 +243,7 @@ body{
 	.fd1{
 		font-size: 0.9em
 	}
-	legend{
-		border: 2px solid black
+	#map{
+		width: 100%;
+		height: 50%;
 	}
