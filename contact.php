@@ -1,4 +1,11 @@
-
+<?php
+	if(isset($_GET['pname'])){
+		$pname=$_GET['pname'];
+	}
+	else{
+		$pname="Choose From the following Products";
+	}
+?>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +19,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="img/favicon2.png">
   <script>
     $(document).ready(function(){
       $(window).scroll(function(){
@@ -80,6 +87,7 @@
    <div class="form-group">
     <label for="exampleFormControlInput4">Choose From following Products</label>
     <select class="form-control" id="exampleFormControlinput4" name="pname">
+      <option><?php echo $pname?></option>
       <option>Water Level Controller</option>
       <option>Dual Tank Water Level Controller</option>
       <option>Water Level Alarm</option>
@@ -131,9 +139,9 @@
                           <p class="fd1">Head Office:- 264/5, Durgapuri Extn., Delhi - 110093, India</p>
                           <p class="fd1">Branch Office :- Shop No. 34, Super Market, "A" Block, Ramprastha, Ghaziabad, U.P. 201011</p>
                           
-                          <p class="fd1"> TIN Number</p>
-                          <p class="fd1">DELHI TIN NO. - 07830164382</p>
-                          <p class="fd1">U.P. TIN NO. - 09488828390</p>
+                          <p class="fd1"> GST Number</p>
+                          <p class="fd1">DELHI GST NO. - 09AHLPB3211A1Z4</p>
+                          <p class="fd1">U.P. GST NO. - 07AHLPB3211A1Z8</p>
                         </div>
                         <div class="col-lg-3 container r1">
                           <p align="left" class="fh1"><b>CONTACT US</b></p>

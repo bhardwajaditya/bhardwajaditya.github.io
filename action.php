@@ -14,7 +14,12 @@
     $senderId = "102234";
     
     //Your message to send, Add URL encoding here.
-    $message = urlencode("$name $number $mail is interested in our product $product .");
+    if(isset($_GET['Company'])){
+        $company=$_GET['Company'];
+        $message = urlencode("$name $number $mail from $company is interested in our product $product for trading.");
+    }
+    else{
+    $message = urlencode("$name $number $mail is interested in our product $product .");}
     
     //Define route 
     $route = "default";
