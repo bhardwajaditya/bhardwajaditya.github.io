@@ -125,7 +125,7 @@ body{
 	}
 	.img1{
 		margin:auto;
-		display: block;
+		/* display: block; */
 		max-width: 90%;
 	}
 
